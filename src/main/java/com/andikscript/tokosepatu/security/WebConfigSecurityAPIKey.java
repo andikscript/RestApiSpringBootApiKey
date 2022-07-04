@@ -20,9 +20,13 @@ import org.springframework.security.web.SecurityFilterChain;
 public class WebConfigSecurityAPIKey {
 
     @Value("${TokoSepatu.http.auth-token-header-name}")
+    // bisa juga langsung di tulis seperti berikut
+//    @Value("X-API-KEY")
     private String principalRequestHeader;
 
     @Value("${TokoSepatu.http.auth-token}")
+    // dan nilai tokennya sebagai berikut
+//    @Value("abc1234")
     private String principalRequestValue;
 
     @Bean
