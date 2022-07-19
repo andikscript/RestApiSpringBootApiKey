@@ -1,4 +1,6 @@
 # RestApiSpringBootApiKey
+Simple Rest API by using security Api Key
+
 ## API Key
 - Untuk komunikasi antar server (sama dengan basic auth bedanya lebih secure karena menggunakan key value)
 - Tidak ada standar 
